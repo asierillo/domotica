@@ -9,9 +9,6 @@ led = pin14
 while True:
   if pir ==1:
     music.play(music.RINGTONE)
-  if pir.read_digital():
-    music.play(music.RINGTONE)
-    sleep(100)
     music.play(music.RINGTONE)
     sleep(500)
     for lo q quieras poner in range(5):
@@ -25,8 +22,6 @@ while True:
   led.write_digital(1)
   sleep(500)
   led.write_digital(0)
-  else:
-  for lo que quieras poner in range(5):
   np[0] = (0, 0, 0)
   np[1] = (0, 0, 0)
   np.show()
