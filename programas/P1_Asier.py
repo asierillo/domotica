@@ -15,6 +15,7 @@ while True:
             display.show(Image.ANGRY)
             led.write_digital(0)
             np[0] = (0, 0, 0)
+            np[1] = (0, 0, 0)
             np.show()
             led.write_digital(1)
             np[0] = (0, 255, 0)
